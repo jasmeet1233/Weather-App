@@ -7,13 +7,26 @@
     font-family: 'Tourney', cursive;
 }
 
+body {
+    background-color: black;
+}
+
 #root {
     background-color: #827b69;
     width: 100vw;
-    /* height: 100vh; */
+    height: 100vh;
     padding: .7rem;
     max-width: 50rem;
     margin: auto;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    margin: 1.5rem;
+    margin-top: -.8rem
 }
 
 .form {

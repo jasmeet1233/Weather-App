@@ -6,6 +6,7 @@ import Weather from "./Weather";
 function App() {
   return (
     <>
+    <h2 className = 'heading'>Weather App</h2>
       <Form />
       <Weather />
       <Forecast />
